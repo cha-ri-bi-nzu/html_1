@@ -1,0 +1,50 @@
+.form_area {
+    float: right;
+}
+
+.contact { /*質問１：行間幅の設定(margenやないん？)*/
+    height: 7rem;
+}
+
+.contact th {
+    width: 150px;
+    text-align: right;
+}
+
+.input_form { /*質問２：お問い合わせ入力欄のheightの設定*/
+    width: 480px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.contact textarea {
+    height: 7rem;
+    width: 480px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.input_sex {
+    margin-left: 10px;
+}
+
+.button_area{
+    text-align: center;
+}
+
+.button { /*質問３：ボタンのサイズ*/
+    border: 10px;
+    height: 50px;
+    width: 100px;
+    margin: auto;
+    font-size: 3rem;
+    background-color: #008B8B;
+    color: #fff;
+    padding: 10px;
+    display: block;
+    position: relative;
+}
+
+.button:hover {
+    opacity: 0.5;
+}
